@@ -1,0 +1,31 @@
+/* TransactionHistory.module.css */
+
+.transactionHistory {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.terminal {
+    background-color: #f5f5f5;
+}
+
+.type,
+.amount,
+.currency {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.spisok tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.keyy {
+    /* Дополнительные стили для строк в теле таблицы */
+}
+
+.iff {
+    /* Дополнительные стили для ячеек внутри таблицы */
+}

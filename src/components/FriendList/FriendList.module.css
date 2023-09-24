@@ -1,0 +1,36 @@
+/* FriendList.module.css */
+
+.friend-list {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    /* Здесь может быть ваш цвет для статуса */
+    margin-right: 10px;
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: bold;
+}
