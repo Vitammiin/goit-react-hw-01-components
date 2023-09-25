@@ -15,7 +15,6 @@ import transactions from 'data/transactions.json';
 export const App = () => {
   return (
     <div>
-      Re3уууууact homework template
       <div>
         <Profile
           username={user.username}
