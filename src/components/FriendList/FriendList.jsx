@@ -5,9 +5,11 @@ export const FriendList = ({ friends }) => {
     <div>
       <ul className={css.friendList}>
         {friends.map(friend => {
+          const statusClass = friend.isOnline ? css.statustru : css.statusfal;
+
           return (
             <li className={css.item} key={friend.id}>
-              <span className={css.status}></span>
+              <span className={statusClass}></span>
               <img
                 className={css.avatar}
                 src={friend.avatar}

@@ -14,11 +14,19 @@
     margin-bottom: 10px;
 }
 
-.status {
+.statustru {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     background-color: green;
+    /* Здесь может быть ваш цвет для статуса */
+    margin-right: 10px;
+}
+.statusfal {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(203, 24, 173);
     /* Здесь может быть ваш цвет для статуса */
     margin-right: 10px;
 }
